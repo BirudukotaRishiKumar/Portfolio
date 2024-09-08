@@ -1,0 +1,570 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 30px;
+    color: #28a8e9;
+}
+
+.image {
+    border-radius: 400px;
+    width: 300px;
+}
+
+@media (min-width:768px) {
+    .top-section {
+        flex-direction: row;
+    }
+
+    .image {
+        width: 450px;
+    }
+}
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 10px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: grey;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 10px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 12px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #28a8e9;
+    /* Add a dark-grey background on hover */
+}
+
+.food-munch-logo {
+    width: 60px;
+    height: 46px;
+}
+
+.navbar {
+    height: 60px;
+}
+
+#navItem1 {
+    color: #28a8e9;
+    font-family: Serif;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+#navItem1:hover {
+    padding-bottom: value;
+    border-bottom-style: solid;
+}
+
+#navItem1:active {
+    color: black;
+}
+
+#navItem2 {
+    color: #28a8e9;
+    font-family: Serif;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+#navItem2:hover {
+    padding-bottom: value;
+    border-bottom-style: solid;
+}
+
+#navItem2:active {
+    color: black;
+}
+
+#navItem3 {
+    color: #28a8e9;
+    font-family: Serif;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+#navItem3:hover {
+    padding-bottom: value;
+    border-bottom-style: solid;
+}
+
+#navItem3:active {
+    color: black;
+}
+
+#navItem4 {
+    color: #28a8e9;
+    font-family: Serif;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+#navItem4:hover {
+    padding-bottom: value;
+    border-bottom-style: solid;
+}
+
+#navItem4:active {
+    color: black;
+}
+
+#navItem5 {
+    color: #28a8e9;
+    font-family: Serif;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+#navItem5:hover {
+    padding-bottom: value;
+    border-bottom-style: solid;
+}
+
+#navItem5:active {
+    color: black;
+}
+
+#navItem6 {
+    color: #28a8e9;
+    font-family: Serif;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+#navItem6:hover {
+    padding-bottom: value;
+    border-bottom-style: solid;
+}
+
+#navItem6:active {
+    color: black;
+}
+
+#navItem7 {
+    color: #28a8e9;
+    font-family: Serif;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+#navItem7:hover {
+    padding-bottom: value;
+    border-bottom-style: solid;
+}
+
+#navItem7:active {
+    color: black;
+}
+
+.banner-section-bg-container {
+    height: 100vh;
+    background-size: cover;
+}
+
+.banner-heading {
+    color: black;
+    font-family: Serif;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.banner-caption {
+    color: black;
+    font-family: Serif;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.banner-caption-iam {
+    color: black;
+    font-family: Serif;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.banner-caption-name {
+    color: #28a8e9;
+    font-family: vivaldi, serif, Sans-Serif, Roboto, Times New Roman;
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.profile-image {
+    border-radius: 240px;
+    width: 100%;
+}
+
+.custom-button {
+    color: white;
+    background-color: #28a8e9;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.custom-button:hover {
+    color: #28a8e9;
+    background-color: white;
+    width: 130px;
+    height: 45px;
+    border: 2px solid #28a8e9;
+    border-radius: 8px;
+}
+
+.custom-outline-button {
+    color: #28a8e9;
+    background-color: white;
+    width: 130px;
+    height: 45px;
+    border: 2px solid #28a8e9;
+    border-radius: 8px;
+}
+
+.custom-outline-button:hover {
+    color: white;
+    background-color: #28a8e9;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.wcu-section {
+    background-color: #f9fbfe;
+}
+
+.wcu-section-para {
+    color: black;
+    text-align: center;
+    font-family: Serif;
+    font-size: 20px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.wcu-section-heading {
+    color: #183b56;
+    font-size: 28px;
+}
+
+.wcu-section-description {
+    color: #5a7184;
+    font-family: Serif;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.wcu-card {
+    text-align: left;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+}
+
+.wcu-card-image {
+    width: 87px;
+    height: 90px;
+}
+
+.wcu-card-title {
+    color: #323f4b;
+    font-family: Serif;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.wcu-card-description {
+    color: #7b8794;
+    font-family: Serif;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.offers {
+    color: #323f4b;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.explore-menu-section {
+    background-color: white;
+}
+
+.menu-section-heading {
+    color: #28a8e9;
+    font-family: Serif;
+    font-size: 28px;
+}
+
+.menu-item-image {
+    border-radius: 16px;
+}
+
+.menu-item-image-linq {
+    border-radius: 16px;
+    height: 10vh;
+}
+
+.menu-card-title {
+    color: #28a8e9;
+    font-family: Serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.menu-item-link {
+    color: #d0b200;
+    font-family: Serif;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu-item-card {
+    border-radius: 16px;
+}
+
+.menu-item-card:hover {
+    background-color: lightgrey;
+}
+
+.healthy-food-section {
+    background-color: #f9fbfe;
+}
+
+.healthy-food-section-img {
+    width: 270px;
+}
+
+.healthy-food-section-heading {
+    color: black;
+    font-family: Serif;
+    font-size: 20px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.worked-as {
+    color: #28a8e9;
+    font-family: Serif;
+    font-size: 18px;
+}
+
+.experience-time {
+    font-size: 14px;
+    color: grey;
+}
+
+@media screen and (min-width:768px) {
+    .experience-time {
+        font-size: 18px;
+    }
+}
+
+.healthy-food-section-description {
+    color: #5a7184;
+    font-family: Serif;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.delivery-and-payment-section {
+    background-color: white;
+}
+
+.delivery-and-payment-section-img {
+    width: 270px;
+}
+
+.delivery-and-payment-section-heading {
+    color: #183b56;
+    font-family: Serif;
+    font-style: italic;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.delivery-and-payment-section-description {
+    color: #5a7184;
+    font-family: Serif;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.payment-card-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 28px;
+}
+
+.thanking-customers-section {
+    background-image: radial-gradient(#e0bb16, #8f7a1b);
+}
+
+.thanking-customers-section-heading {
+    color: #183b56;
+    font-family: Serif;
+    font-style: italic;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.thanking-customers-section-description {
+    color: #5a7184;
+    font-family: Serif;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.thanking-customers-section-img {
+    width: 270px;
+    margin-bottom: 20px;
+}
+
+/* --------------------------------------------------Contact Container------------------------------------------------------------*/
+.contact-container {
+    background-color: black;
+}
+
+/* .contact {
+    color: white;
+    font-family: Serif;
+    padding-left: 15px;
+    font-size: 12px;
+} */
+
+/* .contact:hover {
+    color: #28a8e9;
+    text-transform: uppercase;
+} */
+
+.follow-us-section {
+    background-color: white;
+}
+
+.follow-us-section-heading {
+    font-family: Serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+    text-align: center;
+}
+
+.footer-section {
+    background-color: #0d2436;
+}
+
+.footer-section-mail-id {
+    color: #959ead;
+    font-family: Serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: #959ead;
+    font-family: Serif;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.end-icons {
+    background-image: radial-gradient(#e0bb16, #8f7a1b);
+    font-size: 35px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 40px;
+}
+
+.copyrights {
+    font-size: 10px;
+    padding-top: 20px;
+    color: grey;
+}
+
+.contact-card {
+    /* background-color: white; */
+    border-radius: 20px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.contact-icons {
+    font-size: 34px;
+}
+
+
+.contact-icons:hover {
+    animation: 1.2s infinite cardRotate;
+}
+
+/* Animations started from here */
+.left-in-animation {
+    animation: slideInFromLeft;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes cardRotate {
+    0% {
+        transform: rotateZ(0);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
